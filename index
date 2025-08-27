@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Doudoudoute – Nouvelles Bruno Correard</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Doudoudoute : publications de nouvelles de Bruno Correard – En anglais et en français, découvrez The story of her life, Un rêve d'empêchement, et quelques autres histoires...">
+  <meta name="keywords" content="Doudoudoute, Bruno Correard, doudoudoute, doudou, doute, nouvelles, Bruno, Correard, Story of Her Life, Rêve d'empêchement, Inalchuq" />
+  <link rel="canonical" href="https://doudoudoute.com/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://doudoudoute.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://doudoudoute.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <title> Doudoudoute – Bruno Correard </title>
+  <!-- Polices Google Fonts : Merriweather (texte) et Playfair Display (titres) -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Styles de base */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #121212; /* Fond noir très foncé pour confort visuel */
+      color: #f0f0f0;           /* Texte blanc cassé pour contraste sur fond sombre */
+      font-family: 'Merriweather', serif;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+    }
+    p {
+      max-width: 800px;
+      margin: 0 auto 1em auto;
+      padding: 0 1em;
+    }
+    a {
+      color: #f0f0f0;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #bb86fc;
+    }
+    header {
+      padding: 1em;
+      text-align: center;
+      background: #121212;
+    }
+    nav {
+      margin-top: 0.5em;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2em;
+    }
+    nav a {
+      font-family: 'Merriweather', serif;
+      font-size: 1.1em;
+      color: #bb86fc;
+      font-weight: 400;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #f0f0f0;
+    }
+    main {
+      padding: 1em 1em;
+      text-align: center;
+    }
+    .site-title {
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #f0f0f0;
+      animation: fadeInDown 1s ease-out both;
+    }
+    .site-subtitle {
+      font-size: 1.2em;
+      font-weight: 300;
+      color: #bb86fc;
+      margin-top: 0.5em;
+      animation: fadeInDown 1.5s ease-out both;
+    }
+    .author-section {
+      margin: 0.5em auto;
+      max-width: 800px;
+      text-align: center;
+      animation: fadeIn 2s ease-out both;
+    }
+    .author-section h2 {
+      font-size: 1.8em;
+      margin-bottom: 0.5em;
+      font-weight: 700;
+    }
+    .author-section p {
+      text-align: left;
+      font-size: 1em;
+    }
+    .stories-section {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 0 1em;
+      animation: fadeIn 2.5s ease-out both;
+    }
+    .stories-section h2 {
+      font-size: 1.8em;
+      margin-bottom: 0.5em;
+      font-weight: 700;
+      text-align: center;
+    }
+    .stories-list {
+      list-style: none;
+      padding: 0;
+      margin: 2em 0;
+    }
+    .stories-list li {
+      margin: 1.5em 0;
+      text-align: center;
+    }
+    .story-title {
+      font-size: 1.5em;
+      font-family: 'Playfair Display', serif;
+      font-weight: 400;
+      color: #f0f0f0;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-underline-offset: 4px;
+      transition: text-decoration-color 0.3s, color 0.3s;
+    }
+    .story-title:hover {
+      color: #bb86fc;
+      text-decoration-color: #bb86fc;
+    }
+    footer {
+      text-align: center;
+      padding: 2em 1em;
+      font-size: 0.9em;
+      color: #888;
+    }
+    /* Animations (apparition) */
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    /* Responsive : ajustements pour écran étroit */
+    @media (max-width: 600px) {
+      .site-title {
+        font-size: 2em;
+      }
+      .site-subtitle {
+        font-size: 1em;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 1em;
+      }
+    }
+  </style>
+  <link rel="search"
+      type="application/opensearchdescription+xml"
+      title="Doudoudoute"
+      href="/opensearch.xml">
+</head>
+<body>
+  <header>
+    <h1 class="site-title">Doudoudoute</h1>
+    <div class="site-subtitle">Nouvelles littéraires de Bruno Correard</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="reve.html">Un rêve d'empêchement</a></li>
+        <li><a href="storyofherlife.html">The Story of Her Life</a></li>
+        <li><a href="inalchuq.html">Things of Inalchuq’s Life</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Section de présentation de l'auteur -->
+    <section class="author-section">
+      <h2>Doudoudoute, par Bruno Correard</h2>
+      <p>Bienvenue sur <em>Doudoudoute</em>, un recueil en ligne de nouvelles littéraires. 
+         Découvrez trois récits singuliers qui explorent des univers et des voix différentes, 
+         en français et en anglais, écrits par Bruno Correard</p>
+      <p>Bruno Correard est un auteur amateur, ayant commencé à écrire par initiative personnelle. 
+         Ayant suivi ensuite des cours de fiction en anglais, il découvre ce que c'est d'être soumis 
+         à des contraintes, et dêtre évalué. D'autres nouvelles sont à suivre, merci d'être ici.</p>
+    </section>
+    <!-- Section des nouvelles -->
+    <section class="stories-section">
+      <h2>Nouvelles à découvrir</h2>
+      <ul class="stories-list">
+        <li><a class="story-title" href="reve.html">«&#8239;Un rêve d'empêchement&#8239;»</a></li>
+        <li><a class="story-title" href="storyofherlife.html">«&#8239;The Story of Her Life&#8239;»</a></li>
+        <li><a class="story-title" href="inalchuq.html">«&#8239;Things of Inalchuq’s Life&#8239;»</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Bruno Correard – <em>Doudoudoute</em>
+  </footer>
+</body>
+</html>
